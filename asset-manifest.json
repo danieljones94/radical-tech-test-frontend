@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/radical-tech-test-frontend/static/css/main.e6383069.chunk.css",
-    "main.js": "/radical-tech-test-frontend/static/js/main.b650f382.chunk.js",
-    "main.js.map": "/radical-tech-test-frontend/static/js/main.b650f382.chunk.js.map",
+    "main.js": "/radical-tech-test-frontend/static/js/main.f509b84c.chunk.js",
+    "main.js.map": "/radical-tech-test-frontend/static/js/main.f509b84c.chunk.js.map",
     "runtime-main.js": "/radical-tech-test-frontend/static/js/runtime-main.762ed527.js",
     "runtime-main.js.map": "/radical-tech-test-frontend/static/js/runtime-main.762ed527.js.map",
-    "static/js/2.8c709f17.chunk.js": "/radical-tech-test-frontend/static/js/2.8c709f17.chunk.js",
-    "static/js/2.8c709f17.chunk.js.map": "/radical-tech-test-frontend/static/js/2.8c709f17.chunk.js.map",
+    "static/js/2.526c2196.chunk.js": "/radical-tech-test-frontend/static/js/2.526c2196.chunk.js",
+    "static/js/2.526c2196.chunk.js.map": "/radical-tech-test-frontend/static/js/2.526c2196.chunk.js.map",
     "index.html": "/radical-tech-test-frontend/index.html",
     "static/css/main.e6383069.chunk.css.map": "/radical-tech-test-frontend/static/css/main.e6383069.chunk.css.map",
-    "static/js/2.8c709f17.chunk.js.LICENSE.txt": "/radical-tech-test-frontend/static/js/2.8c709f17.chunk.js.LICENSE.txt",
+    "static/js/2.526c2196.chunk.js.LICENSE.txt": "/radical-tech-test-frontend/static/js/2.526c2196.chunk.js.LICENSE.txt",
     "static/media/frontpageimage.e8b9d577.png": "/radical-tech-test-frontend/static/media/frontpageimage.e8b9d577.png"
   },
   "entrypoints": [
     "static/js/runtime-main.762ed527.js",
-    "static/js/2.8c709f17.chunk.js",
+    "static/js/2.526c2196.chunk.js",
     "static/css/main.e6383069.chunk.css",
-    "static/js/main.b650f382.chunk.js"
+    "static/js/main.f509b84c.chunk.js"
   ]
 }
