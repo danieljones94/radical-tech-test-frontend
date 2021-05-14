@@ -1,0 +1,15 @@
+.masthead {
+  position: relative;
+  right: 10vw;
+  margin-top: 30vh;
+  color: #2d5ca0;
+}
+.masthead h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
+
+.logoutButton {
+  background-color: #5cb9dc;
+}

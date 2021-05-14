@@ -1,0 +1,11 @@
+.landingPageImage {
+  position: absolute;
+  top: 35%;
+  left: 8%;
+}
+
+.welcomeMessage {
+  position: relative;
+  top: 9em;
+  left: 15%;
+}
