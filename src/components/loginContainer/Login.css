@@ -70,6 +70,7 @@ input {
     font-size: 3em;
     position: relative;
     bottom: 10vh;
+    margin-left: 0%;
   }
 
   .form-group input {
