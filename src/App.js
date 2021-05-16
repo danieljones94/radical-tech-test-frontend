@@ -5,7 +5,7 @@ import Header from "./components/header/Header";
 import "./App.css";
 import frontpageimage from "./assets/images/frontpageimage.png";
 import welcomeMessage from "./assets/images/welcomemessage.png";
-import { Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 function App() {
   return (
@@ -25,9 +25,17 @@ function App() {
           />
         </div>
         <div className="col-md-4">
-          <Route path="/" exact component={LoginPage}></Route>
-          <Route path="/signup" exact component={SignUpPage}></Route>
-          <Route path="/home" exact component={LandingPage}></Route>
+          <Switch>
+            <Route path="/" exact>
+              <LoginPage />
+            </Route>
+            <Route path="/signup" exact>
+              <SignUpPage />
+            </Route>
+            <Route path="/home" exact>
+              <LandingPage />
+            </Route>
+          </Switch>
         </div>
       </div>
     </div>
