@@ -5,17 +5,25 @@ import Header from "./components/header/Header";
 import "./App.css";
 import frontpageimage from "./assets/images/frontpageimage.png";
 import welcomeMessage from "./assets/images/welcomemessage.png";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (
     <Router>
       <div className="app">
         <Header />
-        <div class="row">
+        <div className="row">
           <div className="col-md-8">
-            <img src={welcomeMessage} className="welcomeMessage" />
-            <img src={frontpageimage} className="landingPageImage" />
+            <img
+              alt="Welcome message"
+              src={welcomeMessage}
+              className="welcomeMessage"
+            />
+            <img
+              alt="Landing page theme"
+              src={frontpageimage}
+              className="landingPageImage"
+            />
           </div>
           <div className="col-md-4">
             <Route path="/" exact component={LoginPage}></Route>

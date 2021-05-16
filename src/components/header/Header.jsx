@@ -5,8 +5,8 @@ import "./Header.css";
 class Header extends React.Component {
   render() {
     return (
-      <nav class="navbar navbar-light">
-        <img src={radicalLogo} className="radicalLogo" />
+      <nav className="navbar navbar-light">
+        <img alt="logo" src={radicalLogo} className="radicalLogo" />
       </nav>
     );
   }

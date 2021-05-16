@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Redirect } from "react-router";
 import { Link } from "react-router-dom";
 import "./Login.css";

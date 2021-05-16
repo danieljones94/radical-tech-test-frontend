@@ -12,9 +12,11 @@
   width: 30%;
 }
 .signup-form-2 h3 {
+  max-width: 80%;
   text-align: left;
-  margin: 5%;
   color: #2d5ca0;
+  margin-top: 5%;
+  margin-left: 10%;
 }
 
 .signup-form-2 a {
@@ -40,7 +42,7 @@ input {
   cursor: pointer;
   font-weight: 600;
   float: right;
-  margin-right: 2em;
+  margin-right: 10%;
   color: #fff;
   background-color: #5cb9dc;
 }
@@ -53,7 +55,9 @@ input {
   min-width: 80%;
   max-width: 80%;
   margin: 10%;
-  border-bottom: 1px solid black;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid;
 }
 
 @media only screen and (max-width: 650px) {

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Logout from "../components/logOutContainer/Logout";
 
 const LandingPage = () => {
