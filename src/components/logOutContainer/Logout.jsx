@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { Redirect } from "react-router";
+import { Link } from "react-router-dom";
 import "./Logout.css";
 
 const Logout = () => {
@@ -11,13 +13,18 @@ const Logout = () => {
         headers: { "Content-type": "application/json" },
         credentials: "same-origin",
       });
-      console.log(request);
-
       const res = await request.json();
-      console.log(res);
       setUserName(res.name);
     })();
   });
+
+  const logout = async () => {
+    await fetch(process.env.REACT_APP_API_LOGOUT_URL, {
+      method: "POST",
+      credentials: "include",
+      headers: { "Content-type": "application/json" },
+    });
+  };
 
   return (
     <header className="loginMessage d-flex">
@@ -26,9 +33,9 @@ const Logout = () => {
         <h3 className="mb-5">
           <em>You are now logged in!</em>
         </h3>
-        <button className="btn btn-primary logoutButton" type="submit">
+        <Link to="/" className="btn btn-primary logoutButton" onClick={logout}>
           Logout
-        </button>
+        </Link>
       </div>
       <div className="overlay"></div>
     </header>
