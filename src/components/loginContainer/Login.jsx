@@ -10,7 +10,7 @@ const Login = () => {
 
   const submit = async (event) => {
     event.preventDefault();
-    await fetch("http://localhost:5000/api/login", {
+    await fetch(process.env.REACT_APP_API_LOGIN_URL, {
       method: "POST",
       credentials: "include",
       headers: { "Content-type": "application/json" },

@@ -55,3 +55,26 @@ input {
   margin: 10%;
   border-bottom: 1px solid black;
 }
+
+@media only screen and (max-width: 650px) {
+  .signup-form-2 {
+    width: 80vw;
+    margin-top: 12%;
+    background-color: white;
+  }
+
+  .signup-form-2 h3 {
+    text-align: center;
+    font-size: 3em;
+    position: relative;
+    bottom: 10vh;
+  }
+
+  .form-group input {
+    background-color: #e7eff6;
+  }
+
+  .signup-form-2 .btnSubmit {
+    width: 80%;
+  }
+}

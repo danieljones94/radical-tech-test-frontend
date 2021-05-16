@@ -9,3 +9,10 @@
   top: 9em;
   left: 15%;
 }
+
+@media only screen and (max-width: 650px) {
+  .landingPageImage,
+  .welcomeMessage {
+    display: none;
+  }
+}

@@ -9,8 +9,9 @@ const SignUp = () => {
   const [registered, setRegistered] = useState(false);
 
   const submit = async (event) => {
+    console.log(process.env);
     event.preventDefault();
-    await fetch("http://localhost:5000/api/signup", {
+    await fetch(process.env.REACT_APP_API_SIGNUP_URL, {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({
@@ -18,9 +19,7 @@ const SignUp = () => {
         Name,
         PassWord,
       }),
-    });
-
-    setRegistered(true);
+    }).then(setRegistered(true));
   };
 
   if (registered) {

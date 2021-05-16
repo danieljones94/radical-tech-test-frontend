@@ -56,3 +56,35 @@ input {
   margin: 10%;
   border-bottom: 1px solid black;
 }
+
+@media only screen and (max-width: 650px) {
+  .login-form-2 {
+    width: 80vw;
+    margin-top: 12%;
+    background-color: white;
+  }
+
+  .login-form-2 h3 {
+    text-align: center;
+    font-size: 3em;
+    position: relative;
+    bottom: 10vh;
+  }
+
+  .form-group input {
+    background-color: #e7eff6;
+  }
+
+  .login-form-2 .btnSubmit {
+    width: 80%;
+  }
+
+  .signUpLink {
+    position: relative;
+    top: 13vh;
+    left: 20%;
+    color: #2d5ca0 !important;
+    display: inline-block;
+    width: 60%;
+  }
+}

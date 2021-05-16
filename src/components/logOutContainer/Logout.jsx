@@ -6,7 +6,7 @@ const Logout = () => {
 
   useEffect(() => {
     (async () => {
-      const request = await fetch("http://localhost:5000/api/user", {
+      const request = await fetch(process.env.REACT_APP_API_CHECK_USER_URL, {
         method: "GET",
         headers: { "Content-type": "application/json" },
         credentials: "same-origin",
@@ -20,7 +20,7 @@ const Logout = () => {
   });
 
   return (
-    <header className="masthead d-flex">
+    <header className="loginMessage d-flex">
       <div className="container text-center my-auto">
         <h1 className="mb-1">Welcome {userName}</h1>
         <h3 className="mb-5">
