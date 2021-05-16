@@ -1,5 +1,6 @@
 {
   "name": "frontend-auth",
+  "homepage": "https://danieljones94.github.io/radical-tech-test-frontend/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
